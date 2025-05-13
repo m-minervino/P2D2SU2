@@ -24,6 +24,6 @@ Usage is as follows:
 
 
 <ins>Contacts</ins>:
-***Mauro MINERVINO***
-*Senior Researcher, Italian Aerospace Research Centre (CIRA S.C.p.A.)*
+***Dr. Mauro Minervino***
+*Established Researcher at the Italian Aerospace Research Centre (C.I.R.A. SCpA)*
 m.minervino@cira.it
