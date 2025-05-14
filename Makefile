@@ -1,4 +1,4 @@
-#Build P2d2SU2 tools, by Mauro Minervino
+#Build P2D2SU2 tools, by Mauro Minervino
 
 CRS = COARSEN_P2D
 CNV = CONVERT2SU2
