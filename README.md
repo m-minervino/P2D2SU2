@@ -21,7 +21,18 @@ Usage is as follows:
 
 `CONVERT2SU2 input_file scale_f`
 
+You can use the following *BibTeX* citation as a reference (p. 318) for the **P2D2SU2** toolbox:
 
+@PhdThesis{MinervinoPhD,
+  author   = {Minervino, Mauro},
+  school   = {University of Naples Federico II},
+  title    = {{A unified thermodynamic/vortical theory for the aerodynamic force analysis}},
+  year     = {2025},
+  month    = feb,
+  type     = {phdthesis},
+  doi      = {http://dx.doi.org/10.13140/RG.2.2.20705.83047},
+  url      = {https://hdl.handle.net/11588/989058},
+}
 
 <ins>Contacts</ins>:
 ***Dr. Mauro Minervino***
