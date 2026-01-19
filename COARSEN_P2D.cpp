@@ -25,6 +25,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
+#include <vector>
 
 using namespace std;
 int main(int argc, char** argv) {
@@ -50,19 +51,9 @@ ifstream in_file(argv[1]);
         in_file.close();
     }
 
-double values[ni][nk][2];
-	for (int v = 0; v < 2; v++) {
-        for (int k = 0; k < nk; k++) {
-            for (int i = 0; i < ni; i++) {
-                values[i][k][v] = NAN;
-            }
-        }
-	}
+vector < vector < vector < double > > > values(ni, vector < vector < double > > (nk, vector < double > (2,NAN)));
 int ntot=ni*nk*2;
-double in_values[ntot];
-    for (int i = 0; i < ntot; i++) {
-		in_values[i] = NAN;
-	}
+vector < double > in_values(ntot,NAN);
 
 in_file.open(argv[1]);
 	if (in_file.is_open()) {

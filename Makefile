@@ -2,7 +2,7 @@
 
 CRS = COARSEN_P2D
 CNV = CONVERT2SU2
-CC = icc
+CC = icpx
 CFLAGS = -std=c++11
 
 default_target: ALL
