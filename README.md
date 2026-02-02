@@ -15,11 +15,11 @@ Usage is as follows:
 `COARSEN_P2D input_file n`
 
 
-The second code (**<ins>CONVERT2SU2</ins>**) reads in the **PLOT3D** file containing the mesh (it can be either a direct output from [*CONSTRUCT2D*](https://sourceforge.net/projects/construct2d/) or a coarsened mesh file from **<ins>COARSEN_P2D</ins>**) and a second real argument (*scale_f*) that specifies the grid scaling to be applied to the output.
-The code then provides, as an output, a new grid file in the native format used by the [Stanford University Unstructured (SU2) suite](https://su2code.github.io/), which can be used for example to simulate the flow-field around the selected aerofoil using its flow solver module (**SU2_CFD**).
+The second code (**<ins>CONVERT2SU2</ins>**) reads in the **PLOT3D** file containing the mesh (it can be either a direct output from [*CONSTRUCT2D*](https://sourceforge.net/projects/construct2d/) or a coarsened mesh file from **<ins>COARSEN_P2D</ins>**) and two optional real arguments (*scale_f* and *rot_angle*) that specify any grid scaling and/or mesh rotation (arount -Z axis) to be applied to the output.
+The code then provides, as an output, a new grid file in the native format used by the [Stanford University Unstructured (SU2) suite](https://su2code.github.io/), which can be used for example to simulate the flow-field around the selected aerofoil using its flow solver module (**SU2_CFD**). In case of applied grid scaling and/or rotation, a modified **PLOT3D** file will also be written accordingly.
 Usage is as follows:
 
-`CONVERT2SU2 input_file scale_f`
+`CONVERT2SU2 input_file scale_f rot_angle`
 
 You can use the following *BibTeX* citation as a reference (p. 318) for the **P2D2SU2** toolbox:
 
